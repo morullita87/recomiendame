@@ -14,7 +14,7 @@ if pregunta1 == "Introvertida" :
 	image = Image.open("eleven.jpg")
 	st.image(image,caption="Eleven de la serie stranger things")
 	
-if pregunta 2 == "Extrovertida" :
+if pregunta2 == "Extrovertida" :
 	from PIL import Image
 	imageextro = Image.open("bobesponja.jpg")
 	st.image(imageextro,caption="bob esponja")
