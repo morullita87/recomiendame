@@ -10,6 +10,7 @@ opciones2 = ("Baja","Medio","Alta")
 pregunta2 = st.radio("¿Cuál es tu nivel socioeconómico?",opciones2)
 
 if pregunta1 == "Introvertida" :
+	from PIL import Image
 	image = Image.open("eleven.jpg")
 	st.image(image,caption="Eleven de la serie stranger things")
 
