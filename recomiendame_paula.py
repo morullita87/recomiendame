@@ -23,8 +23,8 @@ if pregunta1 == "Introvertida" :
 		st.image(imagemedio,caption="Pumba de la película el rey león")
 		
 	if pregunta2 == "Alta" :
-		imagealta = Image.open("")
-		st.image(imagealta,caption="")
+		imagealta = Image.open("Li Shang.png")
+		st.image(imagealta,caption="Li Shang de la película Mulán")
 	
 if pregunta1 == "Extrovertida" :
 	imageextro = Image.open("bobesponja.jpg")
