@@ -19,7 +19,8 @@ if pregunta1 == "Extrovertida" :
 	st.image(imageextro,caption="bob esponja")
 	
 	if pregunta2 == "Medio" :
-		imagemedio = Image.open (")	
+		imagemedio = Image.open ("lorelai.jpg")
+		st.image(imagemedio,caption=("lorelai gilmore de la serie gilmore girls")
 		
 	if pregunta2=="Alta" :
 		imagealta = Image.open("doc sieteenanitos.png)
