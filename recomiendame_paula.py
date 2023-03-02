@@ -13,14 +13,15 @@ pregunta2 = st.radio("¿Cuál es tu nivel socioeconómico?",opciones2)
 if pregunta1 == "Introvertida" :
 	image = Image.open("eleven.jpg")
 	st.image(image,caption="Eleven de la serie stranger things")
-	if pregunta2 == "Baja" :
-		st.image
 	
 if pregunta1 == "Extrovertida" :
 	imageextro = Image.open("bobesponja.jpg")
 	st.image(imageextro,caption="bob esponja")
 	
 	if pregunta2 == "Medio" :
-		st.write("aquí imagen")		
+		st.write("aquí imagen")	
+		
+	if pregunta2=="Alta" :
+		imagealta = Image.open
 	
 
