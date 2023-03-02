@@ -27,4 +27,6 @@ if pregunta1 == "Extrovertida" :
 		st.image(imagemedio,caption="sabio de los siete enanitos")
 		
 	if pregunta2 == "Alta" :
+		imagealta = Image.open("jasmín.jpg")
+		st.image(imagealta,caption="la princesa jasmín")
 		
