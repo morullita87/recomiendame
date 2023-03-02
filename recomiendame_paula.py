@@ -19,9 +19,8 @@ if pregunta1 == "Introvertida" :
 if pregunta1 == "Extrovertida" :
 	imageextro = Image.open("bobesponja.jpg")
 	st.image(imageextro,caption="bob esponja")
-	if pregunta2 == "Baja" :
-		imageextro = Image.open("bobesponja.jpg")
-		st.image(imageextro,caption="bob esponja")
-	else :
-		st.write("no eres como bob esponja")
+	
+	if pregunta2 == "Medio", "Alta" :
+		st.write("aquí imagen")		
+	
 
