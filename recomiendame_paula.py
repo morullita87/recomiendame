@@ -20,4 +20,4 @@ if pregunta1 == "Extrovertida" :
 	
 	if pregunta2 == "Medio" :
 		imagemedio = Image.open ("lorelai.jpg")
-		st.image(imagemedio,caption=("lorelai gilmore")
+		st.image(imagemedio)
