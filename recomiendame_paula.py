@@ -20,7 +20,7 @@ if pregunta1 == "Extrovertida" :
 	imageextro = Image.open("bobesponja.jpg")
 	st.image(imageextro,caption="bob esponja")
 	
-	if pregunta2 == "Medio", "Alta" :
+	if pregunta2 == "Medio" :
 		st.write("aquí imagen")		
 	
 
