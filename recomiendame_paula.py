@@ -19,9 +19,10 @@ if pregunta1 == "Extrovertida" :
 	st.image(imageextro,caption="bob esponja")
 	
 	if pregunta2 == "Medio" :
-		st.write("aquí imagen")	
+		imagemedio = Image.open (")	
 		
 	if pregunta2=="Alta" :
-		imagealta = Image.open
+		imagealta = Image.open("doc sieteenanitos.png)
+		st.image(imagealta,caption="Sabio de los siete enanitos")
 	
 
