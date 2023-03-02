@@ -24,7 +24,7 @@ if pregunta1 == "Extrovertida" :
 			 
 			 
 	if pregunta2 == "Baja" :
-		imagebaja = Image.open ("doc sieteenanitos")
+		imagebaja = Image.open ("doc sieteenanitos.")
 		st.image(imagebaja,caption=("Sabio de los siete enanitos")
 		
 	
