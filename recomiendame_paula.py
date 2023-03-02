@@ -15,8 +15,8 @@ if pregunta1 == "Introvertida" :
 	st.image(image,caption="Eleven de la serie stranger things")
 	
 	if pregunta2 == "Medio" :
-		imagemedio = Image.open ("")
-		st.image(imagemedio,caption="")
+		imagemedio = Image.open ("rory gilmore.jpg")
+		st.image(imagemedio,caption="rory gilmore de la serie gilmore girls")
 	
 	if pregunta2 == "Baja" :
 		imagemedio = Image.open("")
