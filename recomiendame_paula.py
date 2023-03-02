@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import random
 
-st.header = ("¿A QUÉ PERSONAJE TE PARECES?")
+st.title("¿A QUÉ PERSONAJE TE PARECES?:sunglasses:")
 
 opciones1 = ("Introvertida","Extrovertida")
 pregunta1 = st.radio("Me describiría una persona...",opciones1)
