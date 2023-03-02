@@ -23,5 +23,8 @@ if pregunta1 == "Extrovertida" :
 		st.image(imagemedio,caption="lorelai gilmore de la serie las chicas glimore")
 	
 	if pregunta2 == "Baja" :
-		imagemedio = Image.open("doc sieteenanitos.png")
+		imagemedio = Image.open("sabio blancanieves.jpg")
 		st.image(imagemedio,caption="sabio de los siete enanitos")
+		
+	if pregunta2 == "Alta" :
+		
