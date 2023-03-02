@@ -16,11 +16,11 @@ if pregunta1 == "Introvertida" :
 	
 	if pregunta2 == "Medio" :
 		imagemedio = Image.open ("rory gilmore.jpg")
-		st.image(imagemedio,caption="rory gilmore de la serie gilmore girls")
+		st.image(imagemedio,caption="Rory gilmore de la serie gilmore girls")
 	
 	if pregunta2 == "Baja" :
-		imagemedio = Image.open("")
-		st.image(imagemedio,caption="")
+		imagemedio = Image.open("pumbareyleon.jpg")
+		st.image(imagemedio,caption="Pumba de la película el rey león")
 		
 	if pregunta2 == "Alta" :
 		imagealta = Image.open("")
@@ -28,7 +28,7 @@ if pregunta1 == "Introvertida" :
 	
 if pregunta1 == "Extrovertida" :
 	imageextro = Image.open("bobesponja.jpg")
-	st.image(imageextro,caption="bob esponja")
+	st.image(imageextro,caption="Bob esponja")
 	
 	if pregunta2 == "Medio" :
 		imagemedio = Image.open ("lorelai.jpg")
