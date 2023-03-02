@@ -21,9 +21,3 @@ if pregunta1 == "Extrovertida" :
 	if pregunta2 == "Medio" :
 		imagemedio = Image.open ("lorelai.jpg")
 		st.image(imagemedio,caption=("lorelai gilmore de la serie gilmore girls")
-			 	 
-	
-		
-	
-	
-
