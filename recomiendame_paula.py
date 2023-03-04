@@ -44,15 +44,27 @@ if pregunta1 == "Extrovertida" :
 			imagehermione = Image.open ("hermione.jpg")
 			st.image(imagehermione,caption="Hermione de Harry Potter")
 		
-	
-	
 	if pregunta2 == "Baja" :
 		imagemedio = Image.open("sabio blancanieves.jpg")
 		st.image(imagemedio,caption="sabio de los siete enanitos")
 		
+		if pregunta3 == "Dejarte llevar" :
+			
+		
+		else :
+			st.image(imagemedio,caption="sabio de los siete enanitos")
+		
 	if pregunta2 == "Alta" :
 		imagealta = Image.open("jasmín.jpg")
 		st.image(imagealta,caption="la princesa jasmín")
+		
+		if pregunta3 == "Dejarte llevar" :
+			st.image(imagealta,caption="la princesa jasmín")
+		
+		else :
+			imageemily = Image.open ("emily.jpeg")
+			st.image(imageemily,caption="Emily Gilmore de las chicas gilmore")
+		
 		
 
 		
