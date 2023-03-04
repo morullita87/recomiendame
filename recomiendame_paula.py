@@ -40,6 +40,10 @@ if pregunta1 == "Extrovertida" :
 		if pregunta3 == "Dejarte llevar" :
 			st.image(imagelorelai,caption="lorelai gilmore de la serie las chicas glimore")
 		
+		else :
+			imagehermione = Image.open ("hermione.jpg")
+			st.image(imagehermione,caption="Hermione de Harry Potter")
+		
 	
 	
 	if pregunta2 == "Baja" :
