@@ -38,7 +38,7 @@ if pregunta1 == "Extrovertida" :
 		st.image(imagelorelai,caption="lorelai gilmore de la serie las chicas glimore")
 		
 		if pregunta3 == "Dejarte llevar" :
-		st.image(imagelorelai,caption="lorelai gilmore de la serie las chicas glimore")
+			st.image(imagelorelai,caption="lorelai gilmore de la serie las chicas glimore")
 		
 	
 	
