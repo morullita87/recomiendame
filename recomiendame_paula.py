@@ -38,18 +38,9 @@ if pregunta1 == "Extrovertida" :
 		st.image(imagelorelai,caption="lorelai gilmore de la serie las chicas glimore")
 		
 		if pregunta3 == "Dejarte llevar" :
-		imagelorelai = Image.open("lorelai.jpg")
 		st.image(imagelorelai,caption="lorelai gilmore de la serie las chicas glimore")
 		
-		else :
-			
 	
-		
-		
-		
-		
-		
-		
 	
 	if pregunta2 == "Baja" :
 		imagemedio = Image.open("sabio blancanieves.jpg")
