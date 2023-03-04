@@ -10,6 +10,9 @@ pregunta1 = st.radio("Me describiría una persona...",opciones1)
 opciones2 = ("Baja","Medio","Alta")
 pregunta2 = st.radio("¿Cuál es tu nivel socioeconómico?",opciones2)
 
+opciones3 = ("Dejarte llevar","Planificarte")
+pregunta3 = st.radio("Prefieres:",opciones3)
+
 if pregunta1 == "Introvertida" :
 	image = Image.open("eleven.jpg")
 	st.image(image,caption="Eleven de la serie stranger things")
@@ -31,8 +34,22 @@ if pregunta1 == "Extrovertida" :
 	st.image(imageextro,caption="Bob esponja")
 	
 	if pregunta2 == "Medio" :
-		imagemedio = Image.open ("lorelai.jpg")
-		st.image(imagemedio,caption="lorelai gilmore de la serie las chicas glimore")
+		imagelorelai = Image.open ("lorelai.jpg")
+		st.image(imagelorelai,caption="lorelai gilmore de la serie las chicas glimore")
+		
+		if pregunta3 == "Dejarte llevar" :
+		imagelorelai = Image.open("lorelai.jpg")
+		st.image(imagelorelai,caption="lorelai gilmore de la serie las chicas glimore")
+		
+		else :
+			
+	
+		
+		
+		
+		
+		
+		
 	
 	if pregunta2 == "Baja" :
 		imagemedio = Image.open("sabio blancanieves.jpg")
@@ -41,4 +58,6 @@ if pregunta1 == "Extrovertida" :
 	if pregunta2 == "Alta" :
 		imagealta = Image.open("jasmín.jpg")
 		st.image(imagealta,caption="la princesa jasmín")
+		
+
 		
