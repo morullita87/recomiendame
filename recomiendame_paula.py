@@ -22,8 +22,8 @@ if pregunta1 == "Introvertida" :
 		st.image(imagemedio,caption="Rory gilmore de la serie gilmore girls")
 	
 	if pregunta2 == "Baja" :
-		imagemedio = Image.open("pumbareyleon.jpg")
-		st.image(imagemedio,caption="Pumba de la película el rey león")
+		imagebruno = Image.open("bruno.jpg")
+		st.image(imagebruno,caption="Bruno Madrigal de la película Encanto")
 		
 	if pregunta2 == "Alta" :
 		imagealta = Image.open("Li Shang.png")
