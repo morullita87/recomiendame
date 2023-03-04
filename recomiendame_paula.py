@@ -49,8 +49,9 @@ if pregunta1 == "Extrovertida" :
 		st.image(imagemedio,caption="sabio de los siete enanitos")
 		
 		if pregunta3 == "Dejarte llevar" :
+			imagecenicienta = Image.open("cenicienta.png")
+			st.image(imagecenicienta,caption="La princesa cenicienta al principio")
 			
-		
 		else :
 			st.image(imagemedio,caption="sabio de los siete enanitos")
 		
